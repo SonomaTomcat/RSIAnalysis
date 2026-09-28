@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+pip-wheel-metadata/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.python-version
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+uv.lock
+poetry.lock
+Pipfile.lock
+
+# Testing / coverage / lint
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Type checkers / linters
+.dmypy.json
+mypy.ini.bak
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Ultralytics YOLO outputs
+runs/
+wandb/
+lightning_logs/
+
+# Model weights - downloaded at runtime, do not commit large binaries
+# Uncomment if you want to track demo weights in src/:
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+
+# Videos / large media outputs (annotated results, uploads)
+*annotated*.mp4
+*annotated*.avi
+*annotated*.mov
+rsi_annotated.mp4
+output*.mp4
+output*.avi
+output*.mov
+
+# Demo / assets videos - ignore all
+demo/*
+src/assets/*
+
+# Results / temp
+outputs/
+results/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# Data exports (keep demo/*.csv if intentional, ignore generated ones)
+frames.csv
+jumps.csv
+*.log
+
+# Torch / CUDA cache
+*.cuda
+torchinductor_*/
+
+# macOS / Linux trash
+.Trash-*
